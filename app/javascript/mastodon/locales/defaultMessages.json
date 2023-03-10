@@ -1433,7 +1433,7 @@
   {
     "descriptors": [
       {
-        "defaultMessage": "What is on your mind?",
+        "defaultMessage": "who turgled?",
         "id": "compose_form.placeholder"
       },
       {
@@ -1441,7 +1441,7 @@
         "id": "compose_form.spoiler_placeholder"
       },
       {
-        "defaultMessage": "Post",
+        "defaultMessage": "turgle",
         "id": "compose_form.publish"
       },
       {
@@ -1449,7 +1449,7 @@
         "id": "compose_form.publish_loud"
       },
       {
-        "defaultMessage": "Save changes",
+        "defaultMessage": "Shave changes",
         "id": "compose_form.save_changes"
       }
     ],
@@ -3908,6 +3908,15 @@
       }
     ],
     "path": "app/javascript/mastodon/features/ui/components/bundle_modal_error.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "turgle",
+        "id": "compose_form.publish"
+      }
+    ],
+    "path": "app/javascript/mastodon/features/ui/components/columns_area.json"
   },
   {
     "descriptors": [

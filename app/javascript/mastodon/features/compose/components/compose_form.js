@@ -26,11 +26,11 @@ import { maxChars } from '../../../initial_state';
 const allowedAroundShortCode = '><\u0085\u0020\u00a0\u1680\u2000\u2001\u2002\u2003\u2004\u2005\u2006\u2007\u2008\u2009\u200a\u202f\u205f\u3000\u2028\u2029\u0009\u000a\u000b\u000c\u000d';
 
 const messages = defineMessages({
-  placeholder: { id: 'compose_form.placeholder', defaultMessage: 'What is on your mind?' },
+  placeholder: { id: 'compose_form.placeholder', defaultMessage: 'who turgled?' },
   spoiler_placeholder: { id: 'compose_form.spoiler_placeholder', defaultMessage: 'Write your warning here' },
-  publish: { id: 'compose_form.publish', defaultMessage: 'Post' },
+  publish: { id: 'compose_form.publish', defaultMessage: 'turgle' },
   publishLoud: { id: 'compose_form.publish_loud', defaultMessage: '{publish}!' },
-  saveChanges: { id: 'compose_form.save_changes', defaultMessage: 'Save changes' },
+  saveChanges: { id: 'compose_form.save_changes', defaultMessage: 'Shave changes' },
 });
 
 export default @injectIntl
@@ -230,7 +230,7 @@ class ComposeForm extends ImmutablePureComponent {
 
         <div className={`spoiler-input ${this.props.spoiler ? 'spoiler-input--visible' : ''}`} ref={this.setRef} aria-hidden={!this.props.spoiler}>
           <AutosuggestInput
-            placeholder={intl.formatMessage(messages.spoiler_placeholder)}
+            placeholder='who turgled?'
             value={this.props.spoilerText}
             onChange={this.handleChangeSpoilerText}
             onKeyDown={this.handleKeyDown}
